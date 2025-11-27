@@ -131,3 +131,36 @@ int main() {
 
     return 0;
 }
+// # Enter number of cities: 4
+
+// # Enter city names:
+// # s a b g
+
+// # Enter heuristic values (estimated distance to goal city):
+// # h(s) = 7 
+// # h(a) = 6
+// # h(b) = 2
+// # h(g) = 0
+
+// # Enter number of routes (edges): 5
+
+// # Enter routes in format: Source Destination Distance
+// # s a 1
+// # s b 4
+// # a b 2
+// # a g 12
+// # b g 3
+
+// # Enter start city: s
+// # Enter goal city: g
+
+// # --- A* Search Steps ---
+// # Expanding: s (f=7, g=0, h=7)
+// # Expanding: b (f=6, g=4, h=2)
+// # Expanding: a (f=7, g=1, h=6)
+// # Expanding: g (f=7, g=7, h=0)
+
+// # Goal Reached: g
+// # Total Cost = 7 km
+
+// # Path: s----b----g
